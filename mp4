@@ -1,3 +1,4 @@
-index.html
-background.mp4   (your background video)
-card.mp4         (this will replace the black box)
+/
+├── index.html
+├── background.mp4
+└── card.mp4
