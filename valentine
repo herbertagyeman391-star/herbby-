@@ -123,8 +123,13 @@
 <div class="overlay"></div>
 
 <div class="container">
-    <img id="display-image"
-         src="https://media.giphy.com/media/ccBfKtV6tgbe7ZPjrZ/giphy.gif"
+    <video id="display-video" autoplay muted loop playsinline>
+    <source src="card.mp4" type="video/mp4">
+</video>#display-video {
+    width: 220px;
+    border-radius: 16px;
+    margin-bottom: 15px;
+}
          alt="For You">
 
     <div class="apology">
